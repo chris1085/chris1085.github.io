@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/timeline.css">
+    <!-- <script src="./js/star-rating.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Halant:600" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 203, 30);">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link4</a>
+                    </li>
+
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid sample">
+            <div class="row destination">
+                <h1 style="font-size: 80px">Destination</h1>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="timelines col-sm-4">
+                    <div class="timelineOption">
+                        <div class="searchBar">
+                            <input type="search" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="on" style="width:100%;">
+                        </div>
+                        <div class="otherFunction">
+                            <div class="buttonborder col-sm-2 col-md-2 col-lg-2">
+                                <button type="button" class="btns">TAG1</button>
+                            </div>
+                            <div class="buttonborder col-sm-2 col-md-2 col-lg-2">
+                                <button type="button" class="btns">TAG2</button>
+                            </div>
+                            <div class="buttonborder col-sm-2 col-md-2 col-lg-2">
+                                <button type="button" class="btns">TAG3</button>
+                            </div>
+                            <div class="buttonborder col-sm-2 col-md-2 col-lg-2">
+                                <button type="button" class="btns">TAG4</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="entry">
+                            <div class="title">
+                                <h3>Day1</h3>
+                            </div>
+                            <div class="body">
+                                <p>Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>Day2</h3>
+                            </div>
+                            <div class="body">
+                                <p>Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>Day3</h3>
+                            </div>
+                            <div class="body">
+                                <p>Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>Day4</h3>
+                            </div>
+                            <div class="body">
+                                <p>Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">
+                                <h3>Day5</h3>
+                            </div>
+                            <div class="body">
+                                <p>Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="places col-sm-8">
+                    <div class="classfication col-sm-12">
+                        <form>
+                            <select name="TAG" style="width:120px;">
+                                <option value="Taipei">Rank</option>
+
+                                <option value="Taoyuan">TAG1</option>
+
+                                <option value="Hsinchu">TAG2</option>
+
+                                <option value="Miaoli">TAG3</option>
+                            </select>
+                        </form>
+
+                        <!-- <div class="buttonborder col-sm-2 col-md-2 col-lg-2">
+                            <button type="button" class="btn btn-secondary">Rank</button>
+                        </div>
+                        <div class="buttonborder col-sm-2 col-md-2 col-lg-2">
+                            <button type="button" class="btn btn-secondary">TAG1</button>
+                        </div>
+                        <div class="buttonborder col-sm-2 col-md-2 col-lg-2">
+                            <button type="button" class="btn btn-secondary">TAG2</button>
+                        </div>
+                        <div class="buttonborder col-sm-2 col-md-2 col-lg-2">
+                            <button type="button" class="btn btn-secondary">TAG3</button>
+                        </div> -->
+                    </div>
+
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/150x150"></img>
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/150x151"></img>
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/150x152"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/151x151"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/150x153"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/150x154"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/153x151"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/157x151"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/150x158"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/152x156"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/151x153"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/154x154"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/152x150"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/154x150"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/154x159"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/155x157"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/159x153"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/158x154"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/154x152"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+                    <div class="placebox" id="pbox">
+                        <div class="pname">Lorem.</div>
+                        <a href="">
+                            <img class="img-responsive" src="https://source.unsplash.com/random/158x157"></img>
+
+                        </a>
+                        <div class="star-rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="placemask">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <a href=" " target="_blank ">Lorem, ipsum.</a>
+                    <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, aspernatur?</br>
+                    <h4>
+                        <a href=" ">
+                            <i class="fa fa-facebook " aria-hidden="true "></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa fa-twitter " aria-hidden="true "></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa fa-instagram " aria-hidden="true "></i>
+
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
