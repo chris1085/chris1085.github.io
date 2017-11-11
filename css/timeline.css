@@ -2,17 +2,19 @@
     width: 100%;
     max-width: 800px;
     background: rgb(255, 255, 255);
-    padding: 100px 50px;
+    padding: 120px 50px;
     position: relative;
+    border-bottom-style: solid;
+    border-color: rgb(255, 220, 103);
     /* border: 1px solid black; */
 }
 
 .timeline:before {
     content: '';
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: calc(23% + 22px);
-    bottom: 0px;
+    bottom: 10px;
     width: 4px;
     background: #ddd;
 }
