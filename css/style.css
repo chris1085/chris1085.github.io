@@ -20,13 +20,6 @@
     font-family: 'Halant', serif;
 }
 
-.jumbotron-fluid>.container {
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    color: white;
-}
-
 .container {
     position: relative;
     text-align: center;
@@ -38,6 +31,15 @@ footer {
     background-color: rgb(43, 42, 42);
     width: 100%;
     height: 100%;
+}
+
+.indexSearch {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    /* border: 1px solid black; */
 }
 
 
@@ -100,14 +102,14 @@ footer {
 =============================================*/
 
 .text {
-    width: 40%;
+    width: 100%;
     height: auto;
     /* background-color: rgb(243, 243, 243); */
     /* margin: 0 6px 0 6px; */
 }
 
 .textbox {
-    width: 40%;
+    width: 100%;
     height: 150px;
     /* background-color: rgb(243, 243, 243); */
     margin: 0 auto;
@@ -124,8 +126,6 @@ footer {
 .contact {
     padding-bottom: 20px;
 }
-
-.messagebox {}
 
 
 /*=====  End of contact block  ======*/
@@ -173,7 +173,7 @@ p {
 /*----------  search bar  ----------*/
 
 .input-group {
-    width: 60% !important;
+    /* width: 100% !important; */
     margin: 0px auto;
 }
 
