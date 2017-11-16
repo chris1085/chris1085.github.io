@@ -2,6 +2,11 @@
     clear: both;
 }
 
+
+/*=============================================
+=            Body structer            =
+=============================================*/
+
 .jumbotron {
     width: 100%;
     height: 100vh;
@@ -35,41 +40,26 @@ footer {
     height: 100%;
 }
 
-.container-fluid>.row>.col-sm {
-    color: rgb(192, 190, 190);
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0px auto;
-}
 
-.container-fluid>.container {
-    justify-content: center;
-    text-align: center;
-}
+/*=====  End of Body structer  ======*/
 
-.col-sm {
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    font-weight: 200;
-}
 
-.hr {
-    margin: 10px 0px;
-}
+/*=============================================
+=            picture hover            =
+=============================================*/
 
 #pic {
-    height: 220px;
-    width: 320px;
+    display: block;
+    height: 200px;
+    max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
 
 #pic2 {
-    height: 120px;
-    width: 250px;
+    display: block;
+    height: auto;
+    max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -90,9 +80,10 @@ footer {
 }
 
 #pic2 img {
-    margin: 0px 0 0 0px;
-    -webkit-transform: scale(.95);
-    -webkit-transition: 0.8s;
+    /* margin: -8px px -8px; */
+    overflow: hidden;
+    -webkit-transform: scale(.97);
+    -webkit-transition: 0.7s;
     /* transition: opacity 1s; */
 }
 
@@ -100,44 +91,94 @@ footer {
     -webkit-transform: scale(1);
 }
 
+
+/*=====  End of picture hover  ======*/
+
+
+/*=============================================
+=            contact block            =
+=============================================*/
+
+.text {
+    width: 40%;
+    height: auto;
+    /* background-color: rgb(243, 243, 243); */
+    /* margin: 0 6px 0 6px; */
+}
+
+.textbox {
+    width: 40%;
+    height: 150px;
+    /* background-color: rgb(243, 243, 243); */
+    margin: 0 auto;
+    resize: none;
+}
+
+.name,
+.messagebox {
+    display: block;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.messagebox {}
+
+
+/*=====  End of contact block  ======*/
+
+.footerinfo {
+    color: rgb(192, 190, 190);
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.subfunction {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-weight: 200;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.subtitle {
+    padding-top: 20px;
+}
+
+.hr {
+    margin: 10px 0px;
+}
+
 p {
     font-size: 18px;
     font-weight: 200;
 }
 
-.text {
-    width: 30%;
-    height: 35px;
-    background-color: rgb(243, 243, 243);
-    margin: 0 6px 0 6px;
+.test {
+    /* position: relative; */
+    /* border: 1px solid black; */
+    padding-bottom: 30px;
+    padding-top: 30px;
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 
-.textbox {
-    width: 62%;
-    height: 100px;
-    background-color: rgb(243, 243, 243);
-    margin: 0px auto;
-    resize: none;
-}
 
-.box {
-    /* display: block; */
-    /* border: 2px solid black; */
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    margin: 6px auto;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-}
+/*----------  search bar  ----------*/
 
 .input-group {
     width: 60% !important;
     margin: 0px auto;
 }
+
+
+/*----------  sample.html css start  ----------*/
 
 .navbar {
     position: fixed !important;
