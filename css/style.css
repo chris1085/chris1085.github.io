@@ -160,13 +160,9 @@ p {
     font-weight: 200;
 }
 
-.test {
-    /* position: relative; */
-    /* border: 1px solid black; */
+.video {
     padding-bottom: 30px;
     padding-top: 30px;
-    /* display: flex; */
-    /* flex-direction: row; */
 }
 
 
